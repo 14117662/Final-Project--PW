@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+		<meta charset="UTF-8">
+		<title>Final Project PW Montor.ID</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+	</head>
+	<body class="landing">
+
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="index.html">Montor.id</a></h1>
+				<nav class="topnav" id="nav">
+					<ul>
+						<li><a href="index.html">Cara Kerja</a></li>
+						<a><div class="dropdown">
+    						<button class="dropbtn">Layanan
+    							<i class="fas fa-caret-down"></i>
+    						</button>
+    						<div class="dropdown-content">
+    							<a href="konsultasi.html">Konsultasi</a>
+    							<a href="servis.html">Servis Berkala</a>
+    							<a href="umum.html">Servis Umum</a>
+    							<a href="sparepart.html">Ganti Sparepart</a>
+    							<a href="emergency.html">Emergency</a>
+    							<a href="promo.html">Promo</a>
+    						</div>
+    					</div></a>
+						<li><a href="garansi.html">Garansi</a></li>
+						<li><a href="kontak.html">Contact Us</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><button onclick="document.getElementById('id01').style.display='block'" style="width:100%;">Admin? Silahkan Masuk!</button>
+    						<div id="id01" class="modal">
+    							<form class="modal-content animate" action="/action_page.php">
+    								<div class="imgcontainer">
+      									<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      								<i class="fas fa-user-secret fa-5x" position:"center"></i>
+    								</div>
+
+    								<div class="container.modal">
+      									<label for="uname">Username</label>
+      									<input type="text" placeholder="Enter Username" name="uname" required>
+
+      									<label for="psw">Password</label>
+      									<input type="password" placeholder="Enter Password" name="psw" required>
+
+      									<button type="submit">Login</button>
+      									<label>
+        								<input type="checkbox" checked="checked" name="remember"> Remember me
+      									</label>
+    								</div>
+
+    								<div class="container.modal" style="background-color:#f1f1f1">
+      								<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      								<span class="psw"><a href="#" class="psw">Forgot password?</a></span>
+    								</div>
+  							</form>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<h2>Selamat Datang di Montor.id</h2>
+				<p>"Servis Motor jadi lebih mudah dengan Montor.id"</p>
+				<ul style="font-weight: bold">Servis motor di lokasi anda | Hemat waktu dan tenaga | Layanan Terpercaya</ul>
+				<ul class="actions">
+					<li>
+						<a href="pesan.html" class="button big">Pesan Sekarang</a>
+					</li>
+				</ul>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper style1 special">
+				<div class="container">
+					<header class="major">
+						<h2>Keuntungan yang Didapat</h2>
+						<p>Dengan berbagai fasilitas yang kami sediakan, kami berharap memberikan keuntungan bagi customer</p>
+					</header>
+					<div class="row 150%">
+						<div class="4u 12u$(medium)">
+							<section class="box">
+								<i class="icon big rounded color1 fa-wrench"></i>
+								<h3>Servis jadi Mudah</h3>
+								<p>Pesan sekarang dan mekanik kami akan datang kemanapun kalian berada dan kapanpun kalian butuhkan. Mogok saat tengah malam juga bisa.</p>
+							</section>
+						</div>
+						<div class="4u 12u$(medium)">
+							<section class="box">
+								<i class="icon big rounded color2 fa-dollar-sign"></i>
+								<h3>Harga Lebih Terjangkau</h3>
+								<p>Dengan pelayanan yang kami berikan, harga kami jadi lebih terjangkau daripada harga bengkel. Sehingga memberikan keuntungan ekstra untuk para customer kami.</p>
+							</section>
+						</div>
+						<div class="4u$ 12u$(medium)">
+							<section class="box">
+								<i class="icon big rounded color3 fa-check-circle"></i>
+								<h3>Berkualitas dan Bergaransi</h3>
+								<p>Semua mekanik kami adalah mekanik berpengalaman. Servis kami dilengkapi dengan garansi 1 bulan/1000 km.</p>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper style2 special">
+				<div class="container">
+					<header class="major">
+						<h2>Inilah Testimoni dari Para Customer Kami</h2>
+					</header>
+					<section class="profiles">
+						<div class="row">
+							<section class="3u 6u(medium) 12u$(xsmall) profile">
+								<img src="images/profile_placeholder.gif" alt="" />
+								<h4>Bayu Rosharjanto</h4>
+								<p>Saya belum pernah dengar ada servis motor yang langsung datang ke rumah. Jadi saya langsung masuk websitenya dan mencari tahu. Mekaniknya datang dengan tepat waktu, pekerjaannya cepat dan profesional. Setelah itu saya dapat inspeksi aki, ban, dan suspensi gratis. Jadi menurut saya overall harganya sangat terjangkau dan bersaing dengan bengkel lain. </p>
+							</section>
+							<section class="3u 6u$(medium) 12u$(xsmall) profile">
+								<img src="images/profile_placeholder.gif" alt="" />
+								<h4>Lela Rahayu Septia Nengsih</h4>
+								<p>Sangat puas dengan servis di montor.id. Mekanik yang sudah datang berhasil diagnosa kendal pada motor saya. Ternyata kendalanya pada dinamo starter. Setelah dinamo starter diganti, motor saya berfungsi kembali secara normal. Yang lebih suka lagi, harganya lebih murah daripada bengkel lain yang telah saya survey. Untuk kedepannya saya akan menggunakan Montor.id untuk perawatan motor saya.</p>
+							</section>
+							<section class="3u 6u(medium) 12u$(xsmall) profile">
+								<img src="images/profile_placeholder.gif" alt="" />
+								<h4>Chrispen Jonathan</h4>
+								<p>Selain servis Montor.id cukup praktis, saya juga tidak perlu repot untuk menghabiskan waktu di bengkel. Pengalaman saya menggunakan Montor.id sangat puas, karena mekanik yang tepat waktu terus servisnya juuga profesional dan masalah-masalah di motor saya bisa teratasi dengan baik. Harga servis berkalanya juga cukup murah dibandingkan dengan harga bengkel-bengkel lain.</p>
+							</section>
+							<section class="3u$ 6u$(medium) 12u$(xsmall) profile">
+								<img src="images/profile_placeholder.gif" alt="" />
+								<h4>Felissia</h4>
+								<p>Waktu itu tiba-tiba motor saya mogok di jalan. Jadi saya langsung searching websitenya dan langsung saya pesan segera. Setelah mekaniknya datang, ternyata masalahnya ada di V-belt motor saya yang putus. Setelah diganti dengan yang baru, motor saya dapat berfungsi kembali. Mekaniknya datang tepat waktu, dan pekerjaannya pun cepat dan profesional. Untuk harga pun menurut saya cukup terjangkau dengan berbagai kemudahan yang kita dapat</p>
+							</section>
+						</div>
+					</section>
+					<footer>
+						<p>"Dengan Montor.id semua keluhan dari kendaraan anda segera tertasi. Yuk daftar member sekarang juga!</p>
+						<ul class="actions">
+							<li>
+								<a href="#" class="button big">Daftar Member Sekarang</a>
+							</li>
+						</ul>
+					</footer>
+				</div>
+			</section>
+
+		<!-- Three -->
+			<section id="three" class="wrapper style3 special">
+				<div class="container">
+					<header class="major">
+						<h2>Komentar Anda!!</h2>
+						<p>Ada keluhan, kritik dan saran? Silahkan tinggalkan komentar anda disini!!</p>
+					</header>
+				</div>
+				<div class="container 50%">
+					<form action="#" method="post">
+						<div class="row uniform">
+							<div class="6u 12u$(small)">
+								<input name="name" id="name" value="" placeholder="Name" type="text">
+							</div>
+							<div class="6u$ 12u$(small)">
+								<input name="email" id="email" value="" placeholder="Email" type="email">
+							</div>
+							<div class="12u$">
+								<textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
+							</div>
+							<div class="12u$">
+								<ul class="actions">
+									<li><input value="Send Message" class="special big" type="submit"></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<section class="links">
+						<div class="row">
+							<section class="3u 6u(medium) 12u$(small)">
+								<h3>Lorem ipsum dolor</h3>
+								<ul class="unstyled">
+									<li><a href="#">Lorem ipsum dolor sit</a></li>
+									<li><a href="#">Nesciunt itaque, alias possimus</a></li>
+									<li><a href="#">Optio rerum beatae autem</a></li>
+									<li><a href="#">Nostrum nemo dolorum facilis</a></li>
+									<li><a href="#">Quo fugit dolor totam</a></li>
+								</ul>
+							</section>
+						</div>
+					</section>
+					<div class="row">
+						<div class="8u 12u$(medium)">
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved.</li>
+								<li>Design by Arya and April</a></li>
+							</ul>
+						</div>
+						<div class="4u$ 12u$(medium)">
+							<ul class="icons">
+								<li>
+									<a class="icon rounded fa-facebook"><span class="label">Facebook</span></a>
+								</li>
+								<li>
+									<a class="icon rounded fa-twitter"><span class="label">Twitter</span></a>
+								</li>
+								<li>
+									<a class="icon rounded fa-google-plus"><span class="label">Google+</span></a>
+								</li>
+								<li>
+									<a class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+			<script>
+			function myFunction() {
+    			var x = document.getElementById("nav");
+    			if (x.className === "topnav") {
+        		x.className += " responsive";
+    			} else {
+        			x.className = "topnav";
+    			}
+			}
+			</script>
+
+			<script>
+			// Get the modal
+			var modal = document.getElementById('id01');
+
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+    			if (event.target == modal) {
+        			modal.style.display = "none";
+    			}
+			}
+			</script>
+	</body>
+</html>
